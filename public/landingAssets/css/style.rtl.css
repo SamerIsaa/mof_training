@@ -1,0 +1,254 @@
+body,html{
+    direction: rtl;
+    text-align: right;
+}
+
+.pull-left {
+    float: right;
+}
+
+.pull-right {
+    float: left;
+}
+.main-header .phone-box {
+    float: left;
+    margin-right: 12px;
+    margin-left: 0;
+}
+.main-header .nav-outer {
+    float: left;
+}
+.nav-outer .mobile-nav-toggler {
+    float: left;
+}
+.main-menu {
+    float: right;
+}
+.main-header .outer-box {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+}
+.main-header .btn-box {
+    margin-left: 0;
+    float: right;
+    margin-right: 20px;
+}
+.services-block .inner-box .content .icon {
+    right: 0px;
+    left: auto;
+}
+
+.services-block .inner-box .content {
+    padding-left: 0px;
+    padding-right: 70px;
+}
+
+.services-block .inner-box .arrow {
+    left: 0px;
+    right: auto;
+}
+
+.sec-title h2:before{
+    right: 0;
+    left: auto;
+}
+
+.list-style-one li {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.list-style-one li:before{
+    right: 0;
+    left: auto;
+}
+
+.btns-box .flaticon-right {
+    transform: rotate(
+180deg
+);
+    display: inline-block;
+}
+.sec-title.centered h2:before {
+    right: auto;
+}
+
+.fact-counter .counter-column .icon{
+    right: 0;
+    left: auto;
+}
+.fact-counter .counter-column .inner .content {
+    padding-left: 0px;
+    padding-right: 64px;
+}
+.fact-counter .counter-column .inner {
+    text-align: right;
+}
+.practice-block .inner-box .arrow {
+    transform: rotate(
+180deg
+);
+    display: inline-block;
+}
+.fluid-section-one .side-icon {
+    left: 0px;
+    right: auto;
+}
+.fluid-section-one .image-column {
+    float: right;
+}
+.fluid-section-one .image-column .inner-column {
+    float: left;
+    padding: 100px 15px 80px 65px;
+}
+
+.fluid-section-one .content-column .inner-column {
+    padding: 90px 90px 75px 15px;
+}
+.accordion-box .block .acc-btn {
+    padding: 16px 0px 11px 50px;
+}
+.accordion-box .block .icon-outer {
+    left: 0px;
+    right: auto;
+}
+.team-block .inner-box .lower-box .arrow {
+    display: inline-block;
+    transform: rotate(
+180deg
+);
+}
+
+.testimonial-block .inner-box .quote-icon {
+    right: 80px;
+    left: auto;
+}
+.cta-section .inner-container .image {
+    right: 0px;
+    left: auto;
+}
+
+.cta-section .inner-container .hammer-image {
+    left: -80px;
+ right: auto;
+}
+
+
+@media only screen and (max-width: 2240px){
+    .cta-section .inner-container .hammer-image {
+        left: -320px;
+        right: auto;
+    }
+    
+}
+
+.cta-section .inner-container {
+    padding-right: 580px;
+    padding-left: 15px;
+}
+
+.main-footer .contact-widget ul li .icon {
+    right: 0px;
+    left: auto;
+}
+.main-footer .contact-widget ul li {
+    padding-right: 35px;
+    padding-left: 0px;
+}
+
+.main-footer .logo-widget .social-nav {
+    float: right;
+}
+
+.scroll-to-top {
+    left: 15px;
+    right: auto;
+}
+
+.main-menu .navigation > li {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.services-block .inner-box .arrow::before{
+    transform: rotate( 
+        180deg
+         );
+    display: inline-block;
+}
+
+.banner-section .content-column .title {
+    padding-left: 70px;
+    padding-right: 0px;
+}
+
+.banner-section .content-column .title:before{
+    left: 0;
+    right: auto;
+}
+
+.banner-section .social-nav {
+    right: 50px;
+    left: auto;
+}
+
+@media only screen and (max-width: 767px){
+    .main-header .sticky-header .outer-box {
+        display: block;
+        left: -25px;
+        right: auto;
+        top: 0px;
+    }
+    
+.testimonial-section .inner-container .owl-nav .owl-prev .fa-angle-left::before{
+    content: "\f105";
+}
+
+.testimonial-section .inner-container .owl-nav .owl-next .fa-angle-right::before{
+    content: "\f104";
+}
+}
+
+
+@media only screen and (max-width: 479px){
+    .services-block .inner-box .content {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .fact-counter .counter-column .inner .content {
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .fluid-section-one .content-column .inner-column {
+        padding-right: 15px;
+    }    
+}
+
+@media only screen and (max-width: 1023px){
+    .cta-section .inner-container {
+        padding-right: 15px;
+    }
+    .banner-section .social-nav {
+        left: 20px;
+        right: auto;
+    }
+    
+}
+
+body ,h1,h2,h3,h4,h5,h6,.main-header .phone-box .box-inner strong,
+.banner-section .content-column .title,.welcome-section .image-column .inner-column .case-box,
+.welcome-section .image-column .inner-column .case-box span,.fact-counter .counter-column .count-box,
+.fact-counter .counter-column .counter-title,.accordion-box .block .acc-btn,.testimonial-block .inner-box .name,
+.page-breadcrumb li,.case-section .content-column .text-box,
+.chooseus-block-one .inner-box a,.facts-section-three .count-box,.facts-section-three h4,
+.case-block-two .inner-box .image-box .client-box span,.news-block .inner-box .image .category,
+.news-block .inner-box .image .post-meta li,.styled-pagination li a,
+.blog-detail .inner-box .image .category,.blog-detail .inner-box .image .post-meta li,
+.sidebar-page-container .comments-area .comment-box strong,.sidebar-page-container .comments-area .comment-box .theme-btn{
+    font-family: 'Cairo';
+}
